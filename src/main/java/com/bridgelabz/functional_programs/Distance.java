@@ -22,6 +22,7 @@ public class Distance {
         array[0] = input.nextInt();
         System.out.println("Enter y of point");
         array[1] = input.nextInt();
+
         return array;
     }
 }

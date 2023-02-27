@@ -23,6 +23,7 @@ public class ArrayProblem {
             for (int j = 0; j < columns; j++) {
                 System.out.print(array[i][j] + " ");
             }
+
             System.out.println();
         }
 
@@ -35,6 +36,7 @@ public class ArrayProblem {
                 System.out.println("Enter element of array");
                 array[i][j] = input.nextInt();
             }
+
         }
 
         return array;

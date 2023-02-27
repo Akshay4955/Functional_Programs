@@ -21,9 +21,9 @@ public class Quadratic {
             double rootOne = (-b + Math.sqrt(delta)) / (2 * a);
             double rootTwo = (-b - Math.sqrt(delta)) / (2 * a);
             System.out.println("Roots are " + rootOne + " & " + rootTwo);
-        }
-        else {
+        } else {
             System.out.println("Roots are not real values");
         }
+
     }
 }

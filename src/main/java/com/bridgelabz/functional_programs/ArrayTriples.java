@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ArrayTriples {
     Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) {
         ArrayTriples arrayTriples = new ArrayTriples();
         System.out.println("Enter no of elements you want in array");
@@ -21,9 +22,13 @@ public class ArrayTriples {
                         System.out.println("Triples are: " + array[i] + " " + array[j] + " " + array[k]);
                         triplesCount++;
                     }
+
                 }
+
             }
+
         }
+
         System.out.println("No of triples in an array are: " + triplesCount);
     }
 
@@ -33,6 +38,7 @@ public class ArrayTriples {
             System.out.println("Enter element");
             array[i] = input.nextInt();
         }
+
         return array;
     }
 }
